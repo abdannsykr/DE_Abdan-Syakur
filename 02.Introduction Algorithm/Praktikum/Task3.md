@@ -1,0 +1,1 @@
+Buatlah sebuah flowchart untuk menghitung luas persegi panjang dengan fitur tambahan yaitu jika hasil perhitungan luas merupakan bilangan genap maka tampilkan tulisan “even rectangle”. Jika sebaliknya tampilkan tulisan “odd rectangle”.

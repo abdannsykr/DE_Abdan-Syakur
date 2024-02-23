@@ -1,0 +1,1 @@
+Buatlah sebuah flowchart untuk menghitung luas trapesium.
