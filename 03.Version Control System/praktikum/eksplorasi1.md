@@ -4,3 +4,4 @@ Pilih project terserah kalian, praktekkan salah satu workflow serderhana dan buk
 
 ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/03.Version%20Control%20System/screenshot/ekplorasi1.png?raw=true)
 
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/03.Version%20Control%20System/screenshot/ekplorasi1.jpg?raw=true)
