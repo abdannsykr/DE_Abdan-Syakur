@@ -18,14 +18,11 @@ def hitung_tarif_jarak(jarak):
     else:
         return 15000
 
-# Input berat dan jarak
 berat = int(input("Berat: "))
 jarak = int(input("Jarak: "))
 
-# Menghitung tarif berdasarkan berat dan jarak
 tarif_berat = hitung_tarif_berat(berat)
 tarif_jarak = hitung_tarif_jarak(jarak)
 tarif_total = tarif_berat + tarif_jarak
 
-# Menampilkan output
-print("Output:", tarif_total)
+print(f"Jadi tarif yang harus dibayarkan sebesar {tarif_total}rb")

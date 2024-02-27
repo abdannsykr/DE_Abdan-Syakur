@@ -1,55 +1,56 @@
-def hitung_skor_budget(budget):
-    if budget >= 0 and budget <= 50:
+def hitung_budget(budget):
+    if budget <= 50:
         return 4
-    elif budget >= 51 and budget <= 80:
+    elif budget <= 80:
         return 3
-    elif budget >= 81 and budget <= 100:
+    elif budget <= 100:
         return 2
     else:
         return 1
 
-def hitung_skor_waktu(waktu):
-    if waktu >= 0 and waktu <= 20:
+def hitung_waktu_pengerjaan(waktu_pengerjaan):
+    if waktu_pengerjaan <= 20:
         return 10
-    elif waktu >= 21 and waktu <= 30:
+    elif waktu_pengerjaan <= 30:
         return 5
-    elif waktu >= 31 and waktu <= 50:
+    elif waktu_pengerjaan <= 50:
         return 2
     else:
         return 1
 
-def hitung_skor_kesulitan(kesulitan):
-    if kesulitan >= 0 and kesulitan <= 3:
+def hitung_tingkat_kesulitan(tingkat_kesulitan):
+    if tingkat_kesulitan <= 3:
         return 10
-    elif kesulitan >= 4 and kesulitan <= 6:
+    elif tingkat_kesulitan <= 6:
         return 5
-    elif kesulitan >= 7 and kesulitan <= 10:
+    elif tingkat_kesulitan <= 10:
         return 1
     else:
         return 0
 
-# Input budget, waktu pengerjaan, dan tingkat kesulitan
-budget = float(input("Budget: "))
-waktu = int(input("Waktu pengerjaan: "))
-kesulitan = int(input("Tingkat kesulitan: "))
+def hitung_skor_total(budget, waktu_pengerjaan, tingkat_kesulitan):
+    skor_budget = hitung_budget(budget)
+    skor_waktu_pengerjaan = hitung_waktu_pengerjaan(waktu_pengerjaan)
+    skor_tingkat_kesulitan = hitung_tingkat_kesulitan(tingkat_kesulitan)
+    return skor_budget + skor_waktu_pengerjaan + skor_tingkat_kesulitan
 
-# Menghitung skor dari setiap faktor
-skor_budget = hitung_skor_budget(budget)
-skor_waktu = hitung_skor_waktu(waktu)
-skor_kesulitan = hitung_skor_kesulitan(kesulitan)
+def menentukan_prioritas(skor_total):
+    if skor_total >= 17 and skor_total <= 24:
+        return "High"
+    elif skor_total >= 10 and skor_total <= 16:
+        return "Medium"
+    elif skor_total >= 3 and skor_total <= 9:
+        return "Low"
+    else:
+        return "Impossible"
 
-# Menghitung total skor
-total_skor = skor_budget + skor_waktu + skor_kesulitan
+nama_proyek = input("Masukkan nama proyek: ")
+budget = int(input("Masukkan budget: "))
+waktu_pengerjaan = int(input("Masukkan waktu pengerjaan: "))
+tingkat_kesulitan = int(input("Masukkan tingkat kesulitan: "))
 
-# Menentukan hasil prioritas proyek
-if total_skor >= 24 and total_skor <= 17:
-    hasil = "High"
-elif total_skor >= 16 and total_skor <= 10:
-    hasil = "Medium"
-elif total_skor >= 9 and total_skor <= 3:
-    hasil = "Low"
-else:
-    hasil = "Impossible"
+skor_total = hitung_skor_total(budget, waktu_pengerjaan, tingkat_kesulitan)
 
-# Menampilkan output
-print("Output:", hasil)
+prioritas = menentukan_prioritas(skor_total)
+
+print(f"Hasil prioritas proyek {nama_proyek} adalah {prioritas}")
