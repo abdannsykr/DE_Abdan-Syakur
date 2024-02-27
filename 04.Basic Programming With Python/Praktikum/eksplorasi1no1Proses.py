@@ -22,6 +22,8 @@ kata_pertama = input("Kata pertama: ")
 kata_kedua = input("Kata kedua: ")
 
 if cek_anagram(kata_pertama, kata_kedua):
-    print("Anagram")
+    hasil = ("Anagram")
 else:
-    print("Bukan Anagram")
+    hasil = ("Bukan Anagram")
+
+print(f"Hasilnya adalah {hasil} ")
