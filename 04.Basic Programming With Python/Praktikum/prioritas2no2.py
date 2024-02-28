@@ -35,14 +35,14 @@ def hitung_skor_total(budget, waktu_pengerjaan, tingkat_kesulitan):
     return skor_budget + skor_waktu_pengerjaan + skor_tingkat_kesulitan
 
 def menentukan_prioritas(skor_total):
-    if skor_total >= 17 and skor_total <= 24:
+    if skor_total <= 24 and skor_total >= 17:
         return "High"
-    elif skor_total >= 10 and skor_total <= 16:
+    elif skor_total <= 16 and skor_total >= 10:
         return "Medium"
-    elif skor_total >= 3 and skor_total <= 9:
+    elif skor_total <= 9 and skor_total >= 3:
         return "Low"
-    else:
-        return "Impossible"
+    elif skor_total <=2:
+        return "impossible"
 
 nama_proyek = input("Masukkan nama proyek: ")
 budget = int(input("Masukkan budget: "))
