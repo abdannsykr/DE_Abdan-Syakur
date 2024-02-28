@@ -16,3 +16,5 @@
     Jika bilangan merupakan kelipatan 3 dan 5 maka tampilkan tulisan “buzz”
     Jika tiga kriteria diatas tidak terpenuhi maka tampilkan bilangan aslinya.
 
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/04.Basic%20Programming%20With%20Python/Screenshot/prioritas1-no3.jpg?raw=true)
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/04.Basic%20Programming%20With%20Python/Screenshot/lanjutan-no3.jpg?raw=true)
