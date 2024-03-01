@@ -26,4 +26,4 @@ if cek_anagram(kata_pertama, kata_kedua):
 else:
     hasil = ("Bukan Anagram")
 
-print(f"Hasilnya adalah {hasil} ")
+print(f"Hasilnya {hasil} ")
