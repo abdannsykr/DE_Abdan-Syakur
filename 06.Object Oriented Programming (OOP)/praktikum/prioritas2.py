@@ -9,8 +9,8 @@ class KelasLatihan:
         print("Jadwal latihan    : ", self.jadwal)
 
 class Yoga(KelasLatihan):
-    def __init__(self, jadwal, tingkatKesulitan):
-        super().__init__("yoga", jadwal)
+    def __init__(self, jenisLatihan, jadwal, tingkatKesulitan):
+        super().__init__(jenisLatihan, jadwal)
         self.tingkatKesulitan = tingkatKesulitan
 
     def aturPosisiYoga(self):
@@ -23,8 +23,8 @@ class Yoga(KelasLatihan):
         print()
 
 class AngkatBeban(KelasLatihan):
-    def __init__(self, jadwal, BeratMaksimum):
-        super().__init__("angkat beban", jadwal)
+    def __init__(self, AngkatBeban, jadwal, BeratMaksimum):
+        super().__init__(AngkatBeban, jadwal)
         self.BeratMaksimum = BeratMaksimum
 
     def aturBeratBeban(self):
@@ -37,8 +37,8 @@ class AngkatBeban(KelasLatihan):
         print()
 
 latihan = [
-    Yoga("senin", "sulit"),
-    AngkatBeban("selasa", 5)
+    Yoga("yoga","senin", "sulit"),
+    AngkatBeban("angkat beban", "selasa", 5)
 ]
 
 for latihan_objek in latihan:
