@@ -56,15 +56,17 @@ class pelatih :
         return self.__tahunPengalaman
     
     def tampilkanInfo(self):
-        print("DATA PELATIH")
+        print("PELATIH")
         print("Nama              : ", self.__nama)
         print("Spesialis         : ", self.__spesialisasi)
         print("Pengalaman        : ", self.__tahunPengalaman)
+        print()
 
 class KelasLatihan(pelatih):
 
     def __init__ (self, nama, spesialisasi, tahunPengalaman, latihan, jadwal):
         super().__init__(nama, spesialisasi, tahunPengalaman)
+        self._nama = nama
         self._latihan = latihan
         self._jadwal = jadwal
 
@@ -82,6 +84,7 @@ class KelasLatihan(pelatih):
 
     def tampilkanInfo(self):
         super().tampilkanInfo()
+        print("LATIHAN")
         print("Jenis Latihan     : ", self._latihan)
         print("Jadwal Latihan    : ", self._jadwal)
 
@@ -89,10 +92,7 @@ class KelasLatihan(pelatih):
 pelanggan1 = pelanggan ("Abdan", 21, "ABD41")
 pelanggan1.tampilkanInfo()
 
-#Data latihan dan pelatih dipisah
-#pelatih1 = pelatih ("abdan",  "basket", "5tahun")
-#pelatih1.tampilkanInfo()
 
-latihan1 = KelasLatihan("Abdan","Futsal", "3tahun", "Latihan Fisik", "Setiap Hari, Libur Kalo Lagi Gamood")
+latihan1 = KelasLatihan("Abdan","Futsal", str(3) + "tahun", "Latihan Fisik", "Sabtu")
 latihan1.tampilkanInfo()
 
