@@ -4,9 +4,8 @@ class KelasLatihan:
         self.jenisLatihan = jenisLatihan
         self.jadwal = jadwal
 
-    def tampilkanInfo(self):
-        print("Jenis latihan     : ", self.jenisLatihan)
-        print("Jadwal latihan    : ", self.jadwal)
+    def jenis(self):
+       return "\nJenis Latihan      : " + self.jenisLatihan + "\nJadwal Latihan     : " + self.jadwal
 
 class Yoga(KelasLatihan):
     def __init__(self, jenisLatihan, jadwal, tingkatKesulitan):
@@ -14,13 +13,10 @@ class Yoga(KelasLatihan):
         self.tingkatKesulitan = tingkatKesulitan
 
     def aturPosisiYoga(self):
-        self.aturPosisiYoga
+        return "Sirsa padasana"
 
-    def tampilkanInfo(self):
-        print("Jenis latihan      : ", self.jenisLatihan)
-        print("Jadwal latihan     : ", self.jadwal)
-        print("Tingkat Kesulitan  : ", self.tingkatKesulitan)
-        print()
+    def jenis(self):
+        return super().jenis() + "\nPosisi Yoga        : " + self.aturPosisiYoga() + "\nTingkat kesulitan  : " + self.tingkatKesulitan
 
 class AngkatBeban(KelasLatihan):
     def __init__(self, AngkatBeban, jadwal, BeratMaksimum):
@@ -28,20 +24,13 @@ class AngkatBeban(KelasLatihan):
         self.BeratMaksimum = BeratMaksimum
 
     def aturBeratBeban(self):
-        self.aturBeratBeban
+        return "10kg"
 
-    def tampilkanInfo(self):
-        print("Jenis latihan      : ", self.jenisLatihan)
-        print("Jadwal latihan     : ", self.jadwal)
-        print("Berat Maksimum     : ", self.BeratMaksimum)
-        print()
+    def jenis(self):
+        return super().jenis() + "\nBerat beban        : " + self.aturBeratBeban() + "\nBerat Maksimum     : " + self.BeratMaksimum
 
-latihan = [
-    Yoga("yoga","senin", "sulit"),
-    AngkatBeban("angkat beban", "selasa", 5)
-]
-
-for latihan_objek in latihan:
-    latihan_objek.tampilkanInfo()
-
+gaya = Yoga ("Yoga","Senin","Sulit")
+angkatbeban = AngkatBeban ("Angkat beban", "Sabtu", str(20)+"kg")
+print(gaya.jenis())
+print(angkatbeban.jenis())
     
