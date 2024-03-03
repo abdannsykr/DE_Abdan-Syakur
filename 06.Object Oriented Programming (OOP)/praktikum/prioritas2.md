@@ -6,7 +6,7 @@ Implementasi Polymorphism:
 Modifikasi metode tampilkanInfo() di Yoga dan AngkatBeban untuk menampilkan informasi spesifik kelas tersebut.
 Demonstrasi penggunaan polymorphism dengan membuat array KelasLatihan yang berisi objek Yoga dan AngkatBeban, dan menampilkan informasi mereka menggunakan metode tampilkanInfo() yang telah di-modifikasi.
 
-![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/06.Object%20Oriented%20Programming%20(OOP)/screenshot/prioritas2AdanB.jpg?raw=true)
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/06.Object%20Oriented%20Programming%20(OOP)/screenshot/prioritas2_no1%262.jpg?raw=true)
 
 Desain Metode Khusus:
 Implementasikan metode khusus dalam Yoga dan AngkatBeban, seperti aturPosisiYoga() untuk Yoga dan aturBeratBeban() untuk AngkatBeban.
