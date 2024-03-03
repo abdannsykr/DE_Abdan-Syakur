@@ -14,3 +14,5 @@ Demonstrasi bagaimana metode ini digunakan dalam konteks objek masing-masing.
 
 Demonstrasi Polymorphism Lanjutan:
 Buat fungsi yang menerima objek KelasLatihan dan memanggil metode khusus berdasarkan tipe kelasnya. Gunakan isinstance() untuk menentukan tipe kelas dan memanggil metode yang sesuai.
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/06.Object%20Oriented%20Programming%20(OOP)/screenshot/prioritas2_no3%264.jpg?raw=true)
