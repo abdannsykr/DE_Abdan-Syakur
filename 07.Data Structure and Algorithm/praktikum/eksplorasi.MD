@@ -28,7 +28,9 @@ Menghapus data pengeluaran.
 ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/07.Data%20Structure%20and%20Algorithm/screenshot/eksplorasi_hapusData.jpg?raw=true)
 
 Keluar dari aplikasi.
+
 ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/07.Data%20Structure%20and%20Algorithm/screenshot/eksplorasi_keluar.jpg?raw=true)
 
 Pilihan tidak valid.
-![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/07.Data%20Structure%20and%20Algorithm/screenshot/eksplorasi_pilihanTidakValid.jpg.jpg?raw=true)
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/07.Data%20Structure%20and%20Algorithm/screenshot/eksplorasi_pilihanTidakValid.jpg?raw=true)
