@@ -4,3 +4,4 @@ Sistem juga harus menyimpan data mengenai pelanggan yang akan membeli product ts
 Sistem dapat mencatat transaksi pembelian dari pelanggan.
 Sistem dapat mencatat detail transaksi pembelian dari pelanggan.
 
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/08.Relational%20Database/screenshot/skema.jpeg?raw=true)
