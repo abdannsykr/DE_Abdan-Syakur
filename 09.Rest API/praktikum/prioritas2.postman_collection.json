@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "36000a29-bf6f-4743-9d0b-fe88de7225a0",
+		"name": "prioritas2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25236328"
+	},
+	"item": [
+		{
+			"name": "nomer1",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Data Engineer\",\r\n    \"body\": \"Data Engineering adalah bidang turunan dari Software Engineering yang berfokus pada pengembangan sistem dan infrastruktur perdataan.\",\r\n    \"id\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nomer2",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\" : \"Alterra Academy\",\r\n    \"body\" : \"Alterra Academy melebarkan sayap untuk menjadi IT Bootcamp yang terbuka untuk umum. Salah satunya melalui Immersive Program yang bergerak di bidang Backend, Frontend, Quality Assurance, dan Data Engineering.\",\r\n    \"id\" : 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
