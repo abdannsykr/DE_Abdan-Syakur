@@ -7,11 +7,13 @@ Menggunakan Citus dalam pembuatan tabel.
 
 ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_citus.jpg?raw=true)
 
-Menerapkan replication.
+Menerapkan Replication.
 
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_SET.jpeg?raw=true)
 
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_replication.jpg?raw=true)
 
-Menerapkan sharding.
+Menerapkan Sharding.
 
 Pelanggan :
 
