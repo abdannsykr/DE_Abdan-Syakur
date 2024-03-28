@@ -4,5 +4,39 @@
 
 2.Berdasarkan diagram ERD yang sudah dibuat pada nomor 1, buatlah berbagai tabel dengan kriteria sebagai berikut:
 Menggunakan Citus dalam pembuatan tabel.
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_citus.jpg?raw=true)
+
 Menerapkan replication.
+
+
+
 Menerapkan sharding.
+
+Pelanggan :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_pelanggan.jpeg?raw=true)
+
+Kendaraan :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_kendaraan.jpeg?raw=true)
+
+SewaKendaraan :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_sewaKendaraan.jpeg?raw=true)
+
+PengembalianKendaraan :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_pengembalianKendaraan.jpeg?raw=true)
+
+Transaksi :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_transaksi.jpeg?raw=true)
+
+DetailTransaksi :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_detailTransaksi.jpeg?raw=true)
+
+FeedbackPelanggan :
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/12.Data%20Warehouse%20and%20Data%20Lake/screenshot/prioritas2_feedbackPelanggan.jpeg?raw=true)
