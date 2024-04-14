@@ -1313,3 +1313,24 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-04-14T14:17:55.724+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:17:55.712+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-04-14T14:17:55.797+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:17:55.797+0000] {dag.py:3954} INFO - Setting next_dagrun for eksplorasi_data_ingestion to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
 [2024-04-14T14:17:55.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasi_dag.py took 1.967 seconds
+[2024-04-14T14:18:26.644+0000] {processor.py:161} INFO - Started process (PID=4491) to work on /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:18:26.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasi_dag.py for tasks to queue
+[2024-04-14T14:18:26.648+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:18:26.647+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:18:29.011+0000] {processor.py:840} INFO - DAG(s) 'eksplorasi_data_ingestion' retrieved from /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:18:29.061+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:18:29.060+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T14:18:29.155+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:18:29.155+0000] {dag.py:3954} INFO - Setting next_dagrun for eksplorasi_data_ingestion to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T14:18:29.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasi_dag.py took 2.637 seconds
+[2024-04-14T14:18:59.728+0000] {processor.py:161} INFO - Started process (PID=4542) to work on /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:18:59.745+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasi_dag.py for tasks to queue
+[2024-04-14T14:18:59.762+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:18:59.762+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:19:03.326+0000] {processor.py:840} INFO - DAG(s) 'eksplorasi_data_ingestion' retrieved from /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:19:03.465+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:19:03.464+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T14:19:03.584+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:19:03.584+0000] {dag.py:3954} INFO - Setting next_dagrun for eksplorasi_data_ingestion to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T14:19:03.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasi_dag.py took 4.124 seconds
+[2024-04-14T14:19:34.674+0000] {processor.py:161} INFO - Started process (PID=4601) to work on /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:19:34.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasi_dag.py for tasks to queue
+[2024-04-14T14:19:34.690+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:19:34.689+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:19:39.285+0000] {processor.py:840} INFO - DAG(s) 'eksplorasi_data_ingestion' retrieved from /opt/airflow/dags/eksplorasi_dag.py
+[2024-04-14T14:19:40.445+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:19:40.444+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T14:19:40.878+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:19:40.877+0000] {dag.py:3954} INFO - Setting next_dagrun for eksplorasi_data_ingestion to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T14:19:41.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasi_dag.py took 6.526 seconds
