@@ -1,0 +1,38 @@
+[2024-04-12T12:00:59.958+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-12T12:00:59.977+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prioritas2.write_to_csv manual__2024-04-12T11:46:48.235270+00:00 [queued]>
+[2024-04-12T12:00:59.985+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prioritas2.write_to_csv manual__2024-04-12T11:46:48.235270+00:00 [queued]>
+[2024-04-12T12:00:59.986+0000] {taskinstance.py:2303} INFO - Starting attempt 8 of 10
+[2024-04-12T12:01:00.004+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): write_to_csv> on 2024-04-12 11:46:48.235270+00:00
+[2024-04-12T12:01:00.016+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=610) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-12T12:01:00.018+0000] {standard_task_runner.py:63} INFO - Started process 612 to run task
+[2024-04-12T12:01:00.018+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'prioritas2', 'write_to_csv', 'manual__2024-04-12T11:46:48.235270+00:00', '--job-id', '159', '--raw', '--subdir', 'DAGS_FOLDER/prioritas2_dag.py', '--cfg-path', '/tmp/tmpne1for2p']
+[2024-04-12T12:01:00.020+0000] {standard_task_runner.py:91} INFO - Job 159: Subtask write_to_csv
+[2024-04-12T12:01:00.074+0000] {task_command.py:426} INFO - Running <TaskInstance: prioritas2.write_to_csv manual__2024-04-12T11:46:48.235270+00:00 [running]> on host 805e8d5936d1
+[2024-04-12T12:01:00.165+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='abdan' AIRFLOW_CTX_DAG_ID='prioritas2' AIRFLOW_CTX_TASK_ID='write_to_csv' AIRFLOW_CTX_EXECUTION_DATE='2024-04-12T11:46:48.235270+00:00' AIRFLOW_CTX_TRY_NUMBER='8' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-12T11:46:48.235270+00:00'
+[2024-04-12T12:01:00.167+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-12T12:01:00.168+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-12T12:01:00.169+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: write_to_csv() missing 1 required positional argument: 'data'
+[2024-04-12T12:01:00.177+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=prioritas2, task_id=write_to_csv, execution_date=20240412T114648, start_date=20240412T120059, end_date=20240412T120100
+[2024-04-12T12:01:00.194+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 159 for task write_to_csv (write_to_csv() missing 1 required positional argument: 'data'; 612)
+[2024-04-12T12:01:00.232+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-12T12:01:00.255+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-12T12:01:00.263+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

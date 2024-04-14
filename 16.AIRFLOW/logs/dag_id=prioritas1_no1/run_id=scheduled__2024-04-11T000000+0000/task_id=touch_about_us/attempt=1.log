@@ -1,0 +1,39 @@
+[2024-04-12T00:21:52.643+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-12T00:21:52.717+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prioritas1_no1.touch_about_us scheduled__2024-04-11T00:00:00+00:00 [queued]>
+[2024-04-12T00:21:52.756+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prioritas1_no1.touch_about_us scheduled__2024-04-11T00:00:00+00:00 [queued]>
+[2024-04-12T00:21:52.758+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 6
+[2024-04-12T00:21:52.793+0000] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): touch_about_us> on 2024-04-11 00:00:00+00:00
+[2024-04-12T00:21:52.804+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=80) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-12T00:21:52.815+0000] {standard_task_runner.py:63} INFO - Started process 92 to run task
+[2024-04-12T00:21:52.846+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'prioritas1_no1', 'touch_about_us', 'scheduled__2024-04-11T00:00:00+00:00', '--job-id', '52', '--raw', '--subdir', 'DAGS_FOLDER/prioritas1_dag.py', '--cfg-path', '/tmp/tmpl1jygarp']
+[2024-04-12T00:21:52.873+0000] {standard_task_runner.py:91} INFO - Job 52: Subtask touch_about_us
+[2024-04-12T00:21:53.001+0000] {task_command.py:426} INFO - Running <TaskInstance: prioritas1_no1.touch_about_us scheduled__2024-04-11T00:00:00+00:00 [running]> on host 805e8d5936d1
+[2024-04-12T00:21:53.504+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='abdan' AIRFLOW_CTX_DAG_ID='prioritas1_no1' AIRFLOW_CTX_TASK_ID='touch_about_us' AIRFLOW_CTX_EXECUTION_DATE='2024-04-11T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-11T00:00:00+00:00'
+[2024-04-12T00:21:53.511+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-12T00:21:53.521+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-04-12T00:21:53.534+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'touch about_us/about.txt']
+[2024-04-12T00:21:53.602+0000] {subprocess.py:86} INFO - Output:
+[2024-04-12T00:21:53.625+0000] {subprocess.py:93} INFO - touch: cannot touch 'about_us/about.txt': No such file or directory
+[2024-04-12T00:21:53.633+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-04-12T00:21:53.635+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-12T00:21:53.661+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-04-12T00:21:53.675+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=prioritas1_no1, task_id=touch_about_us, execution_date=20240411T000000, start_date=20240412T002152, end_date=20240412T002153
+[2024-04-12T00:21:53.727+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 52 for task touch_about_us (Bash command failed. The command returned a non-zero exit code 1.; 92)
+[2024-04-12T00:21:53.797+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-12T00:21:53.885+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-12T00:21:53.916+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

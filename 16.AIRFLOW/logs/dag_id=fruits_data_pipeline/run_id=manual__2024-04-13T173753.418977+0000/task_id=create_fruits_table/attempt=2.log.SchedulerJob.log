@@ -1,0 +1,1 @@
+[2024-04-13T18:09:46.631+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: fruits_data_pipeline.create_fruits_table manual__2024-04-13T17:37:53.418977+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
