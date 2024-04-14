@@ -14,3 +14,6 @@ Ekstrak data ulasan dari setiap halaman tersebut.
 Bersihkan data yang telah diekstrak dari tag HTML dan format yang tidak diperlukan.
 Simpan data ulasan ke dalam format yang diinginkan, seperti CSV atau database.
 
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas2_product.jpg)
+
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas2_csv.jpg)
