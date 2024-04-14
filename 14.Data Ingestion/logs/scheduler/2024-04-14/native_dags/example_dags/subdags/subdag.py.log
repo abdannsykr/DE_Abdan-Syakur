@@ -761,3 +761,13 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2024-04-14T14:00:43.232+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:00:43.231+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-14T14:00:43.289+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
 [2024-04-14T14:00:43.425+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.259 seconds
+[2024-04-14T14:02:05.333+0000] {processor.py:161} INFO - Started process (PID=2921) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-04-14T14:02:05.346+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-04-14T14:02:05.351+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:02:05.349+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-04-14T14:02:05.377+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-04-14T14:02:05.429+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.114 seconds
+[2024-04-14T14:02:41.732+0000] {processor.py:161} INFO - Started process (PID=2983) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-04-14T14:02:41.734+0000] {processor.py:830} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2024-04-14T14:02:41.737+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:02:41.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-04-14T14:02:41.754+0000] {processor.py:842} WARNING - No viable dags retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py
+[2024-04-14T14:02:41.798+0000] {processor.py:183} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/subdags/subdag.py took 0.081 seconds
