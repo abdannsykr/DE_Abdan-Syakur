@@ -5,4 +5,5 @@ Kriteria yang harus dipenuhi:
     Task ketiga bertujuan untuk memasukkan data buah-buahan ke dalam tabel fruits yang sudah dibuat.
     Gunakan Operator berdasarkan jenis task yang dijalankan.
 
-![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+Graph
+![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/16.Workflow%20Orchestration%20With%20Airflow/screenshot/eksplorasi.jpg)
