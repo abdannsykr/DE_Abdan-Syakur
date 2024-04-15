@@ -1,0 +1,15 @@
+[2024-04-15T10:48:35.826+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T10:48:36.165+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eksplorasii_dag.create_fruits_table scheduled__2024-03-29T00:00:00+00:00 [queued]>
+[2024-04-15T10:48:36.323+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eksplorasii_dag.create_fruits_table scheduled__2024-03-29T00:00:00+00:00 [queued]>
+[2024-04-15T10:48:36.334+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-15T10:48:36.472+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): create_fruits_table> on 2024-03-29 00:00:00+00:00
+[2024-04-15T10:48:36.552+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1392) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-15T10:48:36.594+0000] {standard_task_runner.py:63} INFO - Started process 1423 to run task
+[2024-04-15T10:48:36.570+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'eksplorasii_dag', 'create_fruits_table', 'scheduled__2024-03-29T00:00:00+00:00', '--job-id', '487', '--raw', '--subdir', 'DAGS_FOLDER/eksplorasii_dag.py', '--cfg-path', '/tmp/tmp4zn4vnjx']
+[2024-04-15T10:48:36.619+0000] {standard_task_runner.py:91} INFO - Job 487: Subtask create_fruits_table
+[2024-04-15T10:48:37.178+0000] {task_command.py:426} INFO - Running <TaskInstance: eksplorasii_dag.create_fruits_table scheduled__2024-03-29T00:00:00+00:00 [running]> on host 2354a2c4893f
+[2024-04-15T10:48:48.527+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 487 for task create_fruits_table ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 1423)

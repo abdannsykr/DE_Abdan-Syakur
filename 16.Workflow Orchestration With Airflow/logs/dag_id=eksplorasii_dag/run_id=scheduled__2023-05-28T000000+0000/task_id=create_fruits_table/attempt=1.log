@@ -1,0 +1,4 @@
+[2024-04-15T10:08:34.316+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-15T10:08:34.445+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eksplorasii_dag.create_fruits_table scheduled__2023-05-28T00:00:00+00:00 [queued]>
+[2024-04-15T10:08:34.526+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eksplorasii_dag.create_fruits_table scheduled__2023-05-28T00:00:00+00:00 [queued]>
+[2024-04-15T10:08:34.531+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1

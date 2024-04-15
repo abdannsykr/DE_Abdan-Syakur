@@ -1,0 +1,67 @@
+[2024-04-14T11:52:33.095+0000] {processor.py:161} INFO - Started process (PID=37) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:52:33.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T11:52:33.111+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:52:33.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:52:33.256+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:52:33.450+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:52:33.449+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T11:52:33.807+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:52:33.807+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T11:52:33.910+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 1.104 seconds
+[2024-04-14T11:53:31.867+0000] {processor.py:161} INFO - Started process (PID=106) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:53:31.871+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T11:53:31.879+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:53:31.878+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:53:31.961+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:53:32.067+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:53:32.066+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T11:53:32.128+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:53:32.128+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T11:53:32.196+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 0.348 seconds
+[2024-04-14T11:54:02.811+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:54:02.820+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T11:54:02.830+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:54:02.829+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:54:02.988+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:54:03.121+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:54:03.120+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T11:54:03.202+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:54:03.202+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T11:54:03.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 0.484 seconds
+[2024-04-14T11:54:35.530+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:54:35.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T11:54:35.535+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:54:35.534+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:54:35.563+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:54:35.619+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:54:35.618+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T11:54:35.691+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:54:35.690+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T11:54:35.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 0.250 seconds
+[2024-04-14T11:55:06.915+0000] {processor.py:161} INFO - Started process (PID=277) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:55:06.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T11:55:06.941+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:55:06.940+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:55:07.015+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:55:07.098+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:55:07.086+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T11:55:07.178+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:55:07.177+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T11:55:07.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 0.385 seconds
+[2024-04-14T11:55:37.403+0000] {processor.py:161} INFO - Started process (PID=340) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:55:37.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T11:55:37.414+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:55:37.414+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:55:37.470+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T11:55:37.539+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:55:37.539+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T11:55:37.603+0000] {logging_mixin.py:188} INFO - [2024-04-14T11:55:37.601+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T11:55:37.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 0.302 seconds
+[2024-04-14T12:15:59.031+0000] {processor.py:161} INFO - Started process (PID=60) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T12:15:59.046+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T12:15:59.062+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:15:59.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T12:16:02.513+0000] {processor.py:840} INFO - DAG(s) 'fruits_data_pipeline' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T12:16:45.033+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:16:45.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:16:45.842+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:16:45.841+0000] {dag.py:3954} INFO - Setting next_dagrun for fruits_data_pipeline to 2024-04-14 00:00:00+00:00, run_after=2024-04-15 00:00:00+00:00
+[2024-04-14T12:16:46.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 47.789 seconds
+[2024-04-14T14:37:29.267+0000] {processor.py:161} INFO - Started process (PID=83) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T14:37:29.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T14:37:29.297+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:29.296+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T14:37:29.543+0000] {processor.py:840} INFO - DAG(s) 'eksplorasii_dag' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T14:37:33.819+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:33.815+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:eksplorasii_dag
+[2024-04-14T14:37:35.118+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:35.118+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:eksplorasii_dag
+[2024-04-14T14:37:36.926+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:36.925+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:eksplorasii_dag
+[2024-04-14T14:37:37.115+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:37.114+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T14:37:39.011+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:39.011+0000] {dag.py:3118} INFO - Creating ORM DAG for eksplorasii_dag
+[2024-04-14T14:37:40.701+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:37:40.701+0000] {dag.py:3954} INFO - Setting next_dagrun for eksplorasii_dag to 2023-03-01 00:00:00+00:00, run_after=2023-03-02 00:00:00+00:00
+[2024-04-14T14:37:40.924+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 11.686 seconds
+[2024-04-14T14:59:23.580+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T14:59:23.610+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/eksplorasii_dag.py for tasks to queue
+[2024-04-14T14:59:23.619+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:59:23.618+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T14:59:25.822+0000] {processor.py:840} INFO - DAG(s) 'eksplorasii_dag' retrieved from /opt/airflow/dags/eksplorasii_dag.py
+[2024-04-14T14:59:27.227+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:59:27.226+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T14:59:35.891+0000] {logging_mixin.py:188} INFO - [2024-04-14T14:59:35.890+0000] {dag.py:3954} INFO - Setting next_dagrun for eksplorasii_dag to 2023-03-01 00:00:00+00:00, run_after=2023-03-02 00:00:00+00:00
+[2024-04-14T14:59:37.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/eksplorasii_dag.py took 14.497 seconds
