@@ -13,8 +13,6 @@ def download_dataset():
 def transform_data(**kwargs):
     input_file = '/tmp/social_ads.csv'
     df = pd.read_csv(input_file)
-    # Lakukan proses transformasi data di sini
-    # Contoh: df = df.dropna()
     transformed_file = '/tmp/transformed_data.csv'
     df.to_csv(transformed_file, index=False)
     return transformed_file
@@ -29,8 +27,7 @@ def export_to_excel(**kwargs):
 def visualize_data(**kwargs):
     transformed_file = kwargs['ti'].xcom_pull(task_ids='transform_data')
     df = pd.read_csv(transformed_file)
-    print(df.head())  # Cetak beberapa baris pertama DataFrame
-    # Pastikan nama kolom yang digunakan sesuai dengan nama kolom yang ada dalam DataFrame
+    print(df.head())  
     sns.scatterplot(x='Age', y='EstimatedSalary', hue='Purchased', data=df, palette='viridis')
 
 
@@ -51,7 +48,6 @@ dag = DAG(
     catchup=False
 )
 
-# Mendefinisikan operator-operatir di dalam DAG
 extract_data_task = PythonOperator(
     task_id='extract_data',
     python_callable=download_dataset,
@@ -61,23 +57,22 @@ extract_data_task = PythonOperator(
 transform_data_task = PythonOperator(
     task_id='transform_data',
     python_callable=transform_data,
-    provide_context=True,  # Untuk memberikan akses ke task instance (ti)
+    provide_context=True,  
     dag=dag,
 )
 
 export_to_excel_task = PythonOperator(
     task_id='export_to_excel',
     python_callable=export_to_excel,
-    provide_context=True,  # Untuk memberikan akses ke task instance (ti)
+    provide_context=True, 
     dag=dag,
 )
 
 visualize_data_task = PythonOperator(
     task_id='visualize_data',
     python_callable=visualize_data,
-    provide_context=True,  # Untuk memberikan akses ke task instance (ti)
+    provide_context=True,  
     dag=dag,
 )
 
-# Mendefinisikan urutan task
 extract_data_task >> transform_data_task >> export_to_excel_task >> visualize_data_task
