@@ -1,0 +1,13 @@
+# Dockerfile
+
+FROM python:3.12-slim
+
+# Instal dependensi
+RUN pip install --upgrade pip
+RUN pip install seaborn
+
+# Set up Airflow
+RUN airflow initdb
+
+# Menjalankan Airflow webserver
+CMD ["airflow", "webserver", "--port", "8080"]
