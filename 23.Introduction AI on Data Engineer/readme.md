@@ -14,26 +14,26 @@ Contoh: Algoritme AI dapat memprediksi cara paling efisien untuk menyimpan dan m
 
 ### AI Driving Technologies
 DATA:
-    Data is available in large quantities, thanks to the internet, social media, and mobile devices.
+    Data tersedia dalam jumlah besar berkat internet, media sosial, dan perangkat seluler.
 
 Agorithm:
-    The discovery of new algorithms, advances in neural network anda deep learning models, as well as the emergence of frameworks and libraries related to data science.
+    Penemuan algoritma baru, kemajuan jaringan saraf dan model pembelajaran mendalam, serta munculnya framework dan perpustakaan terkait ilmu data.
 
 GPU:
-    Advances in hardware technology, especially GPUs and TPUs, are increasing computing capabilities.
+    Kemajuan teknologi perangkat keras, khususnya GPUs dan TPUs, meningkatkan kemampuan komputasi.
 
 Cloud Computing:
-    Access to use A.I. supporting technology it's easer, at an affordable price.
+    Akses untuk menggunakan A.I. teknologi pendukungnya lebih mudah, dengan harga yang terjangkau.
 
-    There is no need to buy supporting technology of recruit experts at expensive prices.
+    Tidak perlu membeli teknologi pendukung rekrutmen tenaga ahli dengan harga mahal.
 
 Investment or funding:
-    Venture capital companies, technology companies, and even govenrments around the world are starting to invest heavily in the field of A.I.
+    Perusahaan modal ventura, perusahaan teknologi, dan bahkan pemerintah di seluruh dunia mulai berinvestasi besar-besaran di bidang A.I.
 
 ### Sisi negatif A.i.
-    Potential bias and discrimination
-    Shifting employment opportunities
-    Lack of transparency and clarity
-    Accountability and responsibility
-    Privacy and security
-    Technology dependency
+    Potensi bias dan diskriminasi.
+    Pergeseran kesempatan kerja.
+    Kurangnya transparansi dan kejelasan.
+    Akuntabilitas dan tanggung jawab.
+    Privasi dan keamanan.
+    Ketergantungan teknologi.
