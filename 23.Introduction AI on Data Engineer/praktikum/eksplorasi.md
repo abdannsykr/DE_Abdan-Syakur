@@ -160,6 +160,7 @@ Pemodelan Sekuensial:
 Pemodelan sekuensial seperti recurrent neural networks (RNNs) dapat digunakan untuk memprediksi produk apa yang mungkin akan dibeli oleh pelanggan selanjutnya berdasarkan urutan pembelian sebelumnya. Ini dapat membantu dalam membuat rekomendasi yang lebih personal dan relevan berdasarkan perilaku pembelian masa lalu pelanggan. Keuntungan utamanya adalah kemampuannya untuk memodelkan urutan waktu dalam data transaksi pelanggan dan membuat prediksi yang lebih presisi tentang perilaku pembelian masa depan.
 
 
+    
     - Integrasi ke dalam Sistem Rekomendasi yang Ada:
 
 Untuk mengintegrasikan solusi-solusi ini ke dalam sistem rekomendasi yang ada, langkah-langkah berikut dapat diambil:
