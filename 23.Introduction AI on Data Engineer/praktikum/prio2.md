@@ -9,11 +9,15 @@ Output_5:
  ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
 
 Analisis Mendalam:
-    - Analisis bagaimana AI memproses input yang lebih kompleks.
+    
+- Analisis bagaimana AI memproses input yang lebih kompleks.
+
     Ketika AI dihadapkan pada input yang lebih kompleks, prosesnya menjadi lebih mendalam dan memerlukan lebih banyak langkah. AI harus mampu memahami konteks yang lebih dalam dari input yang diberikan, termasuk memahami hubungan antar variabel, konteks historis, dan faktor-faktor eksternal yang mungkin mempengaruhi data. Selain itu, data yang lebih kompleks sering memerlukan tahapan preprocessing yang lebih rinci, seperti normalisasi data, penanganan missing value, pengelompokan data, dan ekstraksi fitur yang lebih canggih. Dalam hal ini, AI juga perlu menggunakan model yang lebih canggih, seperti model deep learning dengan arsitektur yang kompleks atau model ensambel yang menggabungkan beberapa model. Selanjutnya, AI harus mampu melakukan penalaran yang lebih kompleks berdasarkan data yang diberikan, termasuk kemampuan untuk mengidentifikasi pola yang rumit, merumuskan hipotesis yang kompleks, dan membuat keputusan yang kompleks berdasarkan informasi yang tersedia. Dalam beberapa kasus, input yang kompleks juga melibatkan interaksi dinamis dengan lingkungan, sehingga AI harus dapat beradaptasi dengan perubahan dalam lingkungan dan merespons dengan cara yang sesuai. Evaluasi performa model AI dalam memproses input yang kompleks memerlukan metrik evaluasi yang lebih rinci dan teliti, serta iterasi dan pembaruan yang lebih sering dari model dan proses pemrosesan data. Dengan menggabungkan teknik-teknik ini, AI dapat memproses input yang lebih kompleks dan menghasilkan output yang relevan dan bermakna, memungkinkan penggunaan AI dalam berbagai aplikasi yang melibatkan data yang kompleks, mulai dari pengolahan bahasa alami hingga pengenalan gambar dan pemodelan prediktif yang mendalam.
 
-    - Identifikasi kelebihan dan keterbatasan AI dalam kasus ini.
-    Kelebihan AI:
+- Identifikasi kelebihan dan keterbatasan AI dalam kasus ini.
+
+Kelebihan AI:
+
     1. Pemrosesan Data yang Cepat: AI dapat dengan cepat mengolah volume data besar dan kompleks, yang memungkinkan analisis yang mendalam dan menyeluruh tentang pola pembelian dan perilaku pelanggan.
     
     2. Penemuan Pola yang Tersembunyi: Dengan menggunakan teknik seperti machine learning dan data mining, AI dapat menemukan pola dan hubungan yang tidak terlihat secara langsung oleh manusia dalam data pembelian produk elektronik.
@@ -24,7 +28,8 @@ Analisis Mendalam:
     
     5. Deteksi Penipuan: AI dapat membantu dalam mendeteksi pola-pola penipuan transaksi yang mencurigakan, yang membantu perusahaan untuk mengurangi risiko kerugian akibat aktivitas penipuan.
 
-    Keterbatasan AI:
+Keterbatasan AI:
+
     1. Ketergantungan pada Data yang Tersedia: Kinerja AI sangat bergantung pada kualitas dan kuantitas data yang tersedia. Jika data yang digunakan tidak representatif atau tidak lengkap, kinerja AI dapat terpengaruh.
     
     2. Kesulitan dalam Pemahaman Konteks yang Kompleks: AI mungkin kesulitan memahami konteks yang sangat kompleks atau tidak terstruktur dengan baik, seperti nuansa dalam ulasan pelanggan atau faktor-faktor sosial dalam keputusan pembelian.
