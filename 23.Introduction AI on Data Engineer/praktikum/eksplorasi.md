@@ -139,15 +139,12 @@ Dalam contoh ini, setiap objek mewakili satu transaksi yang dilakukan oleh seora
 
 
 
+
 Evaluasi Solusi:
 
-
-
-
-Model Collaborative Filtering:
-    
-    
-    Solusi ini akan membantu dalam menemukan pola pembelian yang relevan antar pelanggan. Dengan menganalisis transaksi pelanggan, model collaborative filtering dapat merekomendasikan produk kepada pelanggan berdasarkan pola pembelian dari pelanggan lain yang memiliki profil serupa. Keuntungan utamanya adalah dapat memberikan rekomendasi yang personal dan relevan berdasarkan aktivitas belanja yang sebenarnya.
+    Model Collaborative Filtering:
+        
+        Solusi ini akan membantu dalam menemukan pola pembelian yang relevan antar pelanggan. Dengan menganalisis transaksi pelanggan, model collaborative filtering dapat merekomendasikan produk kepada pelanggan berdasarkan pola pembelian dari pelanggan lain yang memiliki profil serupa. Keuntungan utamanya adalah dapat memberikan rekomendasi yang personal dan relevan berdasarkan aktivitas belanja yang sebenarnya.
 
 
 
