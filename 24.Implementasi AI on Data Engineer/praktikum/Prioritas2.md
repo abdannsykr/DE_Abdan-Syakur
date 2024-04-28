@@ -77,6 +77,9 @@ Generate SQL dengan OpenAI API:
         ORDER BY tahun, bulan, kategori_produk;
 
 
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/24.Implementasi%20AI%20on%20Data%20Engineer/screenshot/prio2_ValidasiQuery.jpg)
+
+
 -   Catat respons AI dan analisis keakuratan serta relevansi query yang dihasilkan.
 
 Query ini dengan tepat mengatasi permintaan dengan menghitung total penjualan per kategori produk setiap bulan.
