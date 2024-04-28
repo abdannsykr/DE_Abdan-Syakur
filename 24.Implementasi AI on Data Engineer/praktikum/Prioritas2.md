@@ -102,13 +102,13 @@ Implementasi dan Analisis Hasil:
 -   Terapkan SQL queries yang telah divalidasi dan dioptimalkan dalam sistem database perusahaan.
 
 
-    # Membuat database 'Penjualan'
+--  Membuat database 'Penjualan'
     CREATE DATABASE prio2;
 
-    # Menggunakan database 'Penjualan'
+--  Menggunakan database 'Penjualan'
     USE prio2;
 
-    # Membuat tabel 'Penjualan'
+--  Membuat tabel 'Penjualan'
     CREATE TABLE Penjualan (
       
         id_transaksi SERIAL PRIMARY KEY,
@@ -129,7 +129,7 @@ Implementasi dan Analisis Hasil:
     
     );
 
-    # Memasukkan data ke dalam tabel 'Penjualan'
+--  Memasukkan data ke dalam tabel 'Penjualan'
     INSERT INTO Penjualan (tanggal_transaksi, jumlah_penjualan, harga, 
     
     kategori_produk, nama_produk, metode_pembayaran, lokasi_penjualan)
@@ -141,6 +141,7 @@ Implementasi dan Analisis Hasil:
     ('2024-04-28', 10, 50000.00, 'Kendaraan', 'Mobil', 'Cash', 'Bandung'),
     
     ('2024-04-28', 15, 10000.00, 'Kendaraan', 'Motor', 'Cash', 'Jambi');
+
 
 Pertama, itu membuat sebuah database bernama "prio2" dan kemudian menggunakan database tersebut.
 
