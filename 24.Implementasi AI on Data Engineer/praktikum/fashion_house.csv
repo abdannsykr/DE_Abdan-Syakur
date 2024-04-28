@@ -1,0 +1,13 @@
+id_transaksi,tanggal_transaksi,jumlah_penjualan,harga,kategori_produk,nama_produk,metode_pembayaran,lokasi_penjualan
+1,2024-01-01,10,250000,Pakaian Wanita,Dress Floral,Kartu Kredit,Jakarta
+2,2024-01-02,8,200000,Aksesoris,Gelang Emas,Transfer Bank,Bandung
+3,2024-01-03,15,450000,Pakaian Pria,Kemeja Batik,Tunai,Surabaya
+4,2024-02-05,12,360000,Pakaian Anak,Celana Panjang Anak,Kartu Kredit,Medan
+5,2024-02-10,9,270000,Pakaian Wanita,Blouse Polos,Tunai,Yogyakarta
+6,2024-02-15,18,540000,Pakaian Anak,Baju Anak Perempuan,Kartu Kredit,Bali
+7,2024-03-02,11,330000,Aksesoris,Kacamata Hitam,Transfer Bank,Jakarta
+8,2024-03-07,7,210000,Pakaian Pria,Celana Jeans,Tunai,Surabaya
+9,2024-03-12,14,420000,Pakaian Wanita,Dress Elegan,Kartu Kredit,Bandung
+10,2024-04-01,16,480000,Aksesoris,Jam Tangan Analog,Tunai,Jakarta
+11,2024-04-08,13,390000,Pakaian Anak,Setelan Anak Laki-laki,Transfer Bank,Medan
+12,2024-04-14,20,600000,Pakaian Pria,Jaket Kulit,Kartu Kredit,Yogyakarta
