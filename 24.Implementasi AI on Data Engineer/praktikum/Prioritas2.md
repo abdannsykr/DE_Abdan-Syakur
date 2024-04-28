@@ -3,25 +3,25 @@
 -   Buatkan tabel dengan atribut kurang lebih memiliki tanggal transaksi, jumlah penjualan, harga, kategori produk, dan lainnya:
 
 
-    CREATE TABLE Penjualan (
+        CREATE TABLE Penjualan (
 
-        id_transaksi SERIAL PRIMARY KEY,
+            id_transaksi SERIAL PRIMARY KEY,
 
-        tanggal_transaksi DATE NOT NULL,
+            tanggal_transaksi DATE NOT NULL,
 
-        jumlah_penjualan INT NOT NULL,
+            jumlah_penjualan INT NOT NULL,
 
-        harga DECIMAL(10, 2) NOT NULL,
+            harga DECIMAL(10, 2) NOT NULL,
 
-        kategori_produk VARCHAR(50) NOT NULL,
+            kategori_produk VARCHAR(50) NOT NULL,
 
-        nama_produk VARCHAR(100),
+            nama_produk VARCHAR(100),
 
-        metode_pembayaran VARCHAR(50),
+            metode_pembayaran VARCHAR(50),
 
-        lokasi_penjualan VARCHAR(100)
+            lokasi_penjualan VARCHAR(100)
 
-    );
+        );
 
 
 Tabel diatas memiliki beberapa kolom yang mencakup informasi penting tentang penjualan:
