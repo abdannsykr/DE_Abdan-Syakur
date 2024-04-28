@@ -141,6 +141,7 @@ Dalam contoh ini, setiap objek mewakili satu transaksi yang dilakukan oleh seora
 Evaluasi Solusi:
 
 
+
 Model Collaborative Filtering:
     
     
