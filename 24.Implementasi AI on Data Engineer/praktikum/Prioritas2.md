@@ -94,7 +94,7 @@ Validasi Query SQL:
 
 Output:
 
-![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input3.jpg)
+![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/24.Implementasi%20AI%20on%20Data%20Engineer/screenshot/prio2_ValidasiQuery.jpg)
 
 
 Implementasi dan Analisis Hasil:
