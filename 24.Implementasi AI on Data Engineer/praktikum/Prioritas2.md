@@ -23,6 +23,7 @@
 
     );
 
+
 Tabel diatas memiliki beberapa kolom yang mencakup informasi penting tentang penjualan:
 
 1. id_transaksi: 
@@ -61,19 +62,19 @@ Generate SQL dengan OpenAI API:
 "Buatkan SQL query untuk menghitung total penjualan per kategori produk setiap bulan."
 
 
-    SELECT EXTRACT(YEAR FROM tanggal_transaksi) AS tahun,
+        SELECT EXTRACT(YEAR FROM tanggal_transaksi) AS tahun,
 
-        EXTRACT(MONTH FROM tanggal_transaksi) AS bulan,
+            EXTRACT(MONTH FROM tanggal_transaksi) AS bulan,
 
-        kategori_produk,
+            kategori_produk,
 
-        SUM(jumlah_penjualan) AS total_penjualan
+            SUM(jumlah_penjualan) AS total_penjualan
 
-    FROM Penjualan
+        FROM Penjualan
 
-    GROUP BY tahun, bulan, kategori_produk
+        GROUP BY tahun, bulan, kategori_produk
 
-    ORDER BY tahun, bulan, kategori_produk;
+        ORDER BY tahun, bulan, kategori_produk;
 
 
 -   Catat respons AI dan analisis keakuratan serta relevansi query yang dihasilkan.
@@ -103,12 +104,15 @@ Implementasi dan Analisis Hasil:
 
 
 --  Membuat database 'Penjualan'
+
     CREATE DATABASE prio2;
 
 --  Menggunakan database 'Penjualan'
+
     USE prio2;
 
 --  Membuat tabel 'Penjualan'
+
     CREATE TABLE Penjualan (
       
         id_transaksi SERIAL PRIMARY KEY,
@@ -129,7 +133,9 @@ Implementasi dan Analisis Hasil:
     
     );
 
+
 --  Memasukkan data ke dalam tabel 'Penjualan'
+
     INSERT INTO Penjualan (tanggal_transaksi, jumlah_penjualan, harga, 
     
     kategori_produk, nama_produk, metode_pembayaran, lokasi_penjualan)
@@ -154,17 +160,17 @@ Terakhir, itu melakukan query untuk menghitung total penjualan per kategori prod
 
 Hasil dari query dibawah ini akan memberikan ringkasan total penjualan per kategori produk untuk setiap bulan yang terdapat dalam data penjualan. Setiap baris hasil akan mencakup tahun, bulan, kategori produk, dan total penjualan untuk kombinasi tersebut.
 
-    SELECT EXTRACT(YEAR FROM tanggal_transaksi) AS tahun,
+        SELECT EXTRACT(YEAR FROM tanggal_transaksi) AS tahun,
 
-        EXTRACT(MONTH FROM tanggal_transaksi) AS bulan,
+            EXTRACT(MONTH FROM tanggal_transaksi) AS bulan,
 
-        kategori_produk,
+            kategori_produk,
 
-        SUM(jumlah_penjualan) AS total_penjualan
+            SUM(jumlah_penjualan) AS total_penjualan
 
-    FROM Penjualan
+        FROM Penjualan
 
-    GROUP BY tahun, bulan, kategori_produk
+        GROUP BY tahun, bulan, kategori_produk
 
-    ORDER BY tahun, bulan, kategori_produk;
+        ORDER BY tahun, bulan, kategori_produk;
 
