@@ -141,31 +141,33 @@ Dalam contoh ini, setiap objek mewakili satu transaksi yang dilakukan oleh seora
 Evaluasi Solusi:
 
 
- Model Collaborative Filtering:
-
+Model Collaborative Filtering:
+    
     
     Solusi ini akan membantu dalam menemukan pola pembelian yang relevan antar pelanggan. Dengan menganalisis transaksi pelanggan, model collaborative filtering dapat merekomendasikan produk kepada pelanggan berdasarkan pola pembelian dari pelanggan lain yang memiliki profil serupa. Keuntungan utamanya adalah dapat memberikan rekomendasi yang personal dan relevan berdasarkan aktivitas belanja yang sebenarnya.
 
 
 
- Analisis Ulasan Pelanggan:
 
+Analisis Ulasan Pelanggan:
 
+    
     Integrasi dengan teknologi pemrosesan bahasa alami (NLP) akan membantu dalam memahami preferensi dan kebutuhan pelanggan melalui ulasan produk. Dengan menganalisis ulasan pelanggan, sistem dapat mengetahui lebih lanjut tentang preferensi pelanggan terhadap produk tertentu dan menggunakan informasi ini untuk meningkatkan akurasi rekomendasi. Keuntungan utamanya adalah mendapatkan wawasan yang lebih mendalam tentang keinginan pelanggan melalui analisis ulasan yang lebih mendalam.
 
 
-    
- Pemodelan Deep Learning: 
+
+Pemodelan Deep Learning: 
 
     
     Model deep learning dapat membantu dalam menemukan pola yang kompleks dan tidak linear dari data transaksi pelanggan. Dengan menggunakan teknik deep learning seperti neural networks, sistem dapat mempelajari representasi fitur yang rumit dari data pembelian pelanggan dan membuat rekomendasi yang lebih akurat. Keuntungan utamanya adalah kemampuannya untuk menangani data yang kompleks dan menemukan pola yang lebih kompleks dari transaksi pelanggan.
 
 
+
+Pemodelan Sekuensial: 
+
     
- Pemodelan Sekuensial: 
-
-
     Pemodelan sekuensial seperti recurrent neural networks (RNNs) dapat digunakan untuk memprediksi produk apa yang mungkin akan dibeli oleh pelanggan selanjutnya berdasarkan urutan pembelian sebelumnya. Ini dapat membantu dalam membuat rekomendasi yang lebih personal dan relevan berdasarkan perilaku pembelian masa lalu pelanggan. Keuntungan utamanya adalah kemampuannya untuk memodelkan urutan waktu dalam data transaksi pelanggan dan membuat prediksi yang lebih presisi tentang perilaku pembelian masa depan.
+
 
 
 
@@ -174,10 +176,10 @@ Evaluasi Solusi:
     - Integrasi ke dalam Sistem Rekomendasi yang Ada:
 
 
+
 Untuk mengintegrasikan solusi-solusi ini ke dalam sistem rekomendasi yang ada, langkah-langkah berikut dapat diambil:
 
-
- Pemrosesan Data: 
+Pemrosesan Data: 
 
 
     Data transaksi pelanggan perlu diproses dan dimurnikan sebelum digunakan untuk melatih model AI. Ini termasuk membersihkan data, mengisi nilai yang hilang, dan mengonversi data ke format yang sesuai.
