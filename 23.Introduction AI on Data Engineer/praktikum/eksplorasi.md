@@ -138,7 +138,9 @@ Penggunaan OpenAI Playground (ChatGPT):
 Dalam contoh ini, setiap objek mewakili satu transaksi yang dilakukan oleh seorang pegawai. Setiap transaksi memiliki ID transaksi (transaction_id), ID pegawai (employee_id), tanggal transaksi (transaction_date), dan daftar produk yang dibeli. Setiap produk memiliki ID produk (product_id), nama produk (product_name), kategori produk (category), merek produk (brand), harga produk (price), dan jumlah yang dibeli (quantity).
 
 
+
 Evaluasi Solusi:
+
 
 
 
@@ -150,6 +152,7 @@ Model Collaborative Filtering:
 
 
 
+
 Analisis Ulasan Pelanggan:
 
     
@@ -157,10 +160,12 @@ Analisis Ulasan Pelanggan:
 
 
 
+
 Pemodelan Deep Learning: 
 
     
     Model deep learning dapat membantu dalam menemukan pola yang kompleks dan tidak linear dari data transaksi pelanggan. Dengan menggunakan teknik deep learning seperti neural networks, sistem dapat mempelajari representasi fitur yang rumit dari data pembelian pelanggan dan membuat rekomendasi yang lebih akurat. Keuntungan utamanya adalah kemampuannya untuk menangani data yang kompleks dan menemukan pola yang lebih kompleks dari transaksi pelanggan.
+
 
 
 
@@ -173,12 +178,15 @@ Pemodelan Sekuensial:
 
 
 
-
+    
+    
     - Integrasi ke dalam Sistem Rekomendasi yang Ada:
 
 
 
+
 Untuk mengintegrasikan solusi-solusi ini ke dalam sistem rekomendasi yang ada, langkah-langkah berikut dapat diambil:
+
 
 Pemrosesan Data: 
 
@@ -187,21 +195,24 @@ Pemrosesan Data:
 
 
 
- Pelatihan Model:
+
+Pelatihan Model:
 
 
     Model AI perlu dilatih menggunakan data transaksi pelanggan yang telah diproses. Setiap teknik AI (collaborative filtering, NLP, deep learning, dll.) memerlukan pendekatan yang berbeda dalam pelatihan dan penyesuaian.
 
 
 
- Integrasi dengan Sistem Rekomendasi:
+
+Integrasi dengan Sistem Rekomendasi:
 
 
     Setelah model-model AI dilatih, mereka harus diintegrasikan ke dalam sistem rekomendasi yang ada. Ini melibatkan pengembangan antarmuka atau API untuk menghubungkan sistem rekomendasi dengan model AI.
 
 
-    
- Evaluasi dan Penyesuaian: 
+
+
+Evaluasi dan Penyesuaian: 
 
 
     Setelah integrasi, sistem rekomendasi perlu dievaluasi secara menyeluruh untuk memastikan bahwa rekomendasi yang dihasilkan oleh model AI adalah relevan dan efektif. Jika diperlukan, model-model AI dapat disesuaikan atau diperbarui berdasarkan umpan balik dari evaluasi ini.
