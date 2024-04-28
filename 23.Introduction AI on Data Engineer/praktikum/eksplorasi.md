@@ -19,9 +19,9 @@ Analisis Masalah:
     Sistem rekomendasi saat ini kurang dalam memberikan rekomendasi yang dipersonalisasi secara tepat kepada setiap pelanggan. Hal ini dapat mengurangi kepuasan pelanggan dan membatasi potensi penjualan yang lebih tinggi.
 
 
-
     - Jenis Data yang Diperlukan untuk Analisis:
     
+
 Data Pembelian Pelanggan: Data historis tentang pembelian pelanggan termasuk produk yang dibeli, jumlahnya, waktu pembelian, dan nilai transaksi. Data ini akan membantu dalam mengidentifikasi pola pembelian pelanggan.
 
 Data Preferensi Pelanggan: Informasi tentang preferensi produk pelanggan, seperti kategori produk yang sering dilihat atau dibeli, merek yang disukai, atau fitur yang dicari. Data ini membantu dalam personalisasi rekomendasi produk.
@@ -34,6 +34,7 @@ Data Ulasan dan Rating: Ulasan pelanggan tentang produk dan rating yang diberika
 
 
 Penggunaan OpenAI Playground (ChatGPT):
+
 
 
 [
@@ -132,6 +133,7 @@ Penggunaan OpenAI Playground (ChatGPT):
 
 ]
 
+
 Dalam contoh ini, setiap objek mewakili satu transaksi yang dilakukan oleh seorang pegawai. Setiap transaksi memiliki ID transaksi (transaction_id), ID pegawai (employee_id), tanggal transaksi (transaction_date), dan daftar produk yang dibeli. Setiap produk memiliki ID produk (product_id), nama produk (product_name), kategori produk (category), merek produk (brand), harga produk (price), dan jumlah yang dibeli (quantity).
 
 
@@ -160,6 +162,7 @@ Pemodelan Sekuensial:
     
     Pemodelan sekuensial seperti recurrent neural networks (RNNs) dapat digunakan untuk memprediksi produk apa yang mungkin akan dibeli oleh pelanggan selanjutnya berdasarkan urutan pembelian sebelumnya. Ini dapat membantu dalam membuat rekomendasi yang lebih personal dan relevan berdasarkan perilaku pembelian masa lalu pelanggan. Keuntungan utamanya adalah kemampuannya untuk memodelkan urutan waktu dalam data transaksi pelanggan dan membuat prediksi yang lebih presisi tentang perilaku pembelian masa depan.
 
+
     -   Integrasi ke dalam Sistem Rekomendasi yang Ada:
 
 
@@ -167,21 +170,25 @@ Untuk mengintegrasikan solusi-solusi ini ke dalam sistem rekomendasi yang ada, l
 
 Pemrosesan Data: 
 
-    
+
+
     Data transaksi pelanggan perlu diproses dan dimurnikan sebelum digunakan untuk melatih model AI. Ini termasuk membersihkan data, mengisi nilai yang hilang, dan mengonversi data ke format yang sesuai.
 
 Pelatihan Model:
 
-    
+
+
     Model AI perlu dilatih menggunakan data transaksi pelanggan yang telah diproses. Setiap teknik AI (collaborative filtering, NLP, deep learning, dll.) memerlukan pendekatan yang berbeda dalam pelatihan dan penyesuaian.
     
 Integrasi dengan Sistem Rekomendasi:
 
-    
+
+
     Setelah model-model AI dilatih, mereka harus diintegrasikan ke dalam sistem rekomendasi yang ada. Ini melibatkan pengembangan antarmuka atau API untuk menghubungkan sistem rekomendasi dengan model AI.
 
     
 Evaluasi dan Penyesuaian: 
+
 
 
     Setelah integrasi, sistem rekomendasi perlu dievaluasi secara menyeluruh untuk memastikan bahwa rekomendasi yang dihasilkan oleh model AI adalah relevan dan efektif. Jika diperlukan, model-model AI dapat disesuaikan atau diperbarui berdasarkan umpan balik dari evaluasi ini.
@@ -192,8 +199,8 @@ Dokumentasi dan Presentasi:
 
 Input_6:
 
- ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input4.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input6.jpg)
  
 Output_6:
 
- ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input4.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/output6.jpg)
