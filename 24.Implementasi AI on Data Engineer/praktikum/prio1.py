@@ -19,6 +19,6 @@ def generate(prompt, model="gpt-3.5-turbo"):
 
 penjualan_dataset = generate(prompt)
 
-df_penjualan = pd.DataFrame({"penjualan_Dataset": [penjualan_dataset]})
+df_penjualan = pd.DataFrame({"penjualan_dataset": [penjualan_dataset]})
 
 df_penjualan.to_csv("penjualan_dataset.csv", index=False)
