@@ -19,7 +19,7 @@ Analisis Masalah:
     Sistem rekomendasi saat ini kurang dalam memberikan rekomendasi yang dipersonalisasi secara tepat kepada setiap pelanggan. Hal ini dapat mengurangi kepuasan pelanggan dan membatasi potensi penjualan yang lebih tinggi.
 
 
-    - Jenis Data yang Diperlukan untuk Analisis:
+-   Jenis Data yang Diperlukan untuk Analisis:
     
 
 Data Pembelian Pelanggan: Data historis tentang pembelian pelanggan termasuk produk yang dibeli, jumlahnya, waktu pembelian, dan nilai transaksi. Data ini akan membantu dalam mengidentifikasi pola pembelian pelanggan.
