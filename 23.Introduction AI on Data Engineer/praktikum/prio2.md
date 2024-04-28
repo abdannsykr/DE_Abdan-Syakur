@@ -2,17 +2,18 @@ Eksekusi Lanjutan:
 
 Input_5:
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input5.jpg)
 
 Output_5:
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/output5.jpg)
 
 Analisis Mendalam:
     
 - Analisis bagaimana AI memproses input yang lebih kompleks.
 
     Ketika AI dihadapkan pada input yang lebih kompleks, prosesnya menjadi lebih mendalam dan memerlukan lebih banyak langkah. AI harus mampu memahami konteks yang lebih dalam dari input yang diberikan, termasuk memahami hubungan antar variabel, konteks historis, dan faktor-faktor eksternal yang mungkin mempengaruhi data. Selain itu, data yang lebih kompleks sering memerlukan tahapan preprocessing yang lebih rinci, seperti normalisasi data, penanganan missing value, pengelompokan data, dan ekstraksi fitur yang lebih canggih. Dalam hal ini, AI juga perlu menggunakan model yang lebih canggih, seperti model deep learning dengan arsitektur yang kompleks atau model ensambel yang menggabungkan beberapa model. Selanjutnya, AI harus mampu melakukan penalaran yang lebih kompleks berdasarkan data yang diberikan, termasuk kemampuan untuk mengidentifikasi pola yang rumit, merumuskan hipotesis yang kompleks, dan membuat keputusan yang kompleks berdasarkan informasi yang tersedia. Dalam beberapa kasus, input yang kompleks juga melibatkan interaksi dinamis dengan lingkungan, sehingga AI harus dapat beradaptasi dengan perubahan dalam lingkungan dan merespons dengan cara yang sesuai. Evaluasi performa model AI dalam memproses input yang kompleks memerlukan metrik evaluasi yang lebih rinci dan teliti, serta iterasi dan pembaruan yang lebih sering dari model dan proses pemrosesan data. Dengan menggabungkan teknik-teknik ini, AI dapat memproses input yang lebih kompleks dan menghasilkan output yang relevan dan bermakna, memungkinkan penggunaan AI dalam berbagai aplikasi yang melibatkan data yang kompleks, mulai dari pengolahan bahasa alami hingga pengenalan gambar dan pemodelan prediktif yang mendalam.
+
 
 - Identifikasi kelebihan dan keterbatasan AI dalam kasus ini.
 

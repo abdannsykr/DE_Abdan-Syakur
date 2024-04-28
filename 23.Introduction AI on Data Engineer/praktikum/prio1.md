@@ -1,14 +1,15 @@
 Input_1 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input1.jpg)
 
 Output_1 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/output1.jpg)
 
 Entitas:
 
 Pelanggan (Customers):
+
     customer_id (PK)
     
     nama_pelanggan
@@ -58,11 +59,11 @@ Dalam skema ini, setiap pesanan memiliki satu pelanggan yang membuatnya dan beri
 
 Input_2 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input2.jpg)
 
 Output_2 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/output2.jpg)
 
 CREATE TABLE Customers (
     
@@ -74,7 +75,7 @@ CREATE TABLE Customers (
     
     nomor_telepon VARCHAR(20)
 
-);
+    );
 
 CREATE TABLE Products (
 
@@ -86,7 +87,7 @@ CREATE TABLE Products (
 
     stok INT
 
-);
+    );
 
 CREATE TABLE Orders (
 
@@ -100,7 +101,7 @@ CREATE TABLE Orders (
 
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 
-);
+    );
 
 CREATE TABLE Order_Details (
 
@@ -118,15 +119,15 @@ CREATE TABLE Order_Details (
 
     FOREIGN KEY (product_id) REFERENCES Products(product_id)
 
-);
+    );
 
 Input_3 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input3.jpg)
 
 Output_3 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/output3.jpg)
 
 Menampilkan semua pelanggan:
 
@@ -172,38 +173,42 @@ Menampilkan total harga pesanan untuk setiap pesananan:
 
 Input_4 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/input4.jpg)
 
 Output_4 :
 
- ![alt text](https://github.com/abdansyakur14002/DE_Abdan-Syakur/blob/main/14.Data%20Ingestion/screenshot/prioritas1_customers.jpg)
+ ![alt text](https://github.com/abdannsykr/DE_Abdan-Syakur/blob/main/23.Introduction%20AI%20on%20Data%20Engineer/screenshot/output4.jpg)
 
 
 Pada skema database pembelian produk elektronik yang telah dibuat sebelumnya, terjadi beberapa hubungan antar entitas yang menciptakan struktur database yang disebut sebagai relational database. Berikut adalah penjelasan tentang relational database dalam konteks pembelian produk elektronik:
 
 Pelanggan (Customers) dan Pesanan (Orders):
-
-    Hubungan antara pelanggan dan pesanan bersifat One-to-Many, yang berarti satu pelanggan dapat melakukan banyak pesanan, tetapi setiap pesanan hanya dimiliki oleh satu pelanggan.
-    Setiap pesanan (order) terkait dengan satu pelanggan melalui kolom customer_id pada tabel Orders.
+ 
+Hubungan antara pelanggan dan pesanan bersifat One-to-Many, yang berarti satu pelanggan dapat melakukan banyak pesanan, tetapi setiap pesanan hanya dimiliki oleh satu pelanggan.
+Setiap pesanan (order) terkait dengan satu pelanggan melalui kolom customer_id pada tabel Orders.
 
 Pesanan (Orders) dan Detail Pesanan (Order_Details):
 
-    Hubungan antara pesanan dan detail pesanan juga bersifat One-to-Many, yang berarti satu pesanan dapat memiliki banyak detail pesanan, tetapi setiap detail pesanan hanya terkait dengan satu pesanan.
-    Setiap detail pesanan (order detail) terkait dengan satu pesanan melalui kolom order_id pada tabel Order_Details.
+Hubungan antara pesanan dan detail pesanan juga bersifat One-to-Many, yang berarti satu pesanan dapat memiliki banyak detail pesanan, tetapi setiap detail pesanan hanya terkait dengan satu pesanan.
+Setiap detail pesanan (order detail) terkait dengan satu pesanan melalui kolom order_id pada tabel Order_Details.
 
 Produk (Products) dan Detail Pesanan (Order_Details):
 
-    Hubungan antara produk dan detail pesanan juga bersifat One-to-Many, yang berarti satu produk dapat terdapat dalam banyak detail pesanan, tetapi setiap detail pesanan hanya terkait dengan satu produk.
-    Setiap detail pesanan (order detail) terkait dengan satu produk melalui kolom product_id pada tabel Order_Details.
+Hubungan antara produk dan detail pesanan juga bersifat One-to-Many, yang berarti satu produk dapat terdapat dalam banyak detail pesanan, tetapi setiap detail pesanan hanya terkait dengan satu produk.
+Setiap detail pesanan (order detail) terkait dengan satu produk melalui kolom product_id pada tabel Order_Details.
 
 Dengan struktur hubungan yang tepat ini, database dapat mengorganisir data dengan baik dan memungkinkan untuk melacak informasi seperti produk yang dibeli oleh pelanggan tertentu, pesanan apa yang dilakukan oleh pelanggan, dan detail pesanan termasuk produk apa yang dibeli dan jumlahnya. Ini memfasilitasi operasi bisnis seperti manajemen stok, pelacakan penjualan, dan analisis pelanggan.
 
 Penjelasan Hasil:
 
 - Buat penjelasan singkat mengenai bagaimana AI memproses input dan menghasilkan output.
+
+   
    Dalam konteks pembelian produk elektronik, proses AI dimulai dengan input data yang mencakup informasi pelanggan seperti nama, alamat, dan nomor telepon, informasi produk seperti nama, harga, dan stok, serta informasi pesanan seperti tanggal pesanan dan jumlah barang yang dipesan. Sebelum data digunakan oleh model AI, proses preprocessing mungkin diperlukan untuk memurnikan atau memproses data lebih lanjut, seperti normalisasi data pelanggan dan produk ke dalam format yang konsisten, atau penghapusan noise atau outlier. Model AI yang diterapkan dalam skenario ini bisa berupa model klasifikasi untuk memprediksi apakah suatu pesanan adalah penipuan berdasarkan pola pembelian yang mencurigakan, atau model rekomendasi untuk menghasilkan rekomendasi produk yang disesuaikan dengan preferensi pelanggan berdasarkan sejarah pembelian mereka. Model AI akan memproses data yang dimasukkan untuk mencari pola atau fitur yang relevan, seperti pola pembelian yang tidak biasa atau preferensi pelanggan. Output yang dihasilkan oleh model AI bisa berupa prediksi apakah suatu pesanan adalah penipuan atau bukan, rekomendasi produk untuk pelanggan tertentu, atau informasi lainnya seperti perkiraan waktu pengiriman atau rencana stok barang. Output kemudian dievaluasi untuk memastikan keakuratannya, dan jika diperlukan, data atau model dapat diperbarui untuk meningkatkan kinerjanya. Dengan menerapkan proses AI dalam skenario pembelian produk elektronik, perusahaan dapat meningkatkan efisiensi operasional, meningkatkan pengalaman pelanggan, dan mengurangi risiko seperti penipuan atau kekurangan stok.
 
 - Jelaskan potensi aplikasi hasil ini dalam konteks Data Engineering.
+
+   
    Dalam konteks Data Engineering, hasil dari proses AI dalam skenario pembelian produk elektronik dapat dioptimalkan untuk berbagai aplikasi yang memberikan nilai tambah bagi perusahaan. Insinyur data dapat merancang dan mengimplementasikan pipeline data yang mengambil data dari berbagai sumber seperti database transaksional, sistem pelacakan interaksi pelanggan, dan data eksternal lainnya. Data ini kemudian diolah dan dimuat ke dalam sistem analisis untuk memahami perilaku pelanggan, preferensi pembelian, dan tren pasar, yang kemudian dapat digunakan untuk meningkatkan strategi pemasaran dan penjualan. Dalam situasi di mana keputusan harus diambil dengan cepat, seperti mendeteksi penipuan transaksi atau memberikan rekomendasi produk saat pelanggan sedang berbelanja online, insinyur data dapat membangun infrastruktur yang memungkinkan pemrosesan data secara real-time. Teknologi seperti Apache Kafka atau Apache Flink dapat digunakan untuk memproses data secara cepat dan efisien, memungkinkan perusahaan untuk merespons dengan cepat terhadap perubahan pasar atau perilaku pelanggan. Insinyur data juga bertanggung jawab untuk merancang dan mengelola data warehouse atau data lake yang menyimpan semua data terkait pembelian produk elektronik dengan aman dan terstruktur. Data ini dapat diakses dengan mudah untuk analisis lebih lanjut, dan skema yang sesuai serta performa yang optimal akan memastikan data dapat digunakan secara efektif untuk pengambilan keputusan. Dengan memanfaatkan teknik-teknik seperti collaborative filtering, content-based filtering, atau model deep learning, insinyur data dapat mengoptimalkan sistem rekomendasi untuk meningkatkan pengalaman pelanggan dan meningkatkan penjualan dengan memberikan rekomendasi produk yang relevan. Terakhir, dengan membangun sistem monitoring yang memantau kinerja sistem secara real-time, mendeteksi anomali, dan memberikan wawasan yang dibutuhkan untuk meningkatkan kualitas dan efisiensi proses, perusahaan dapat terus mengoptimalkan operasinya. Dengan menerapkan praktik Data Engineering yang cermat, hasil dari proses AI dalam skenario pembelian produk elektronik dapat dimanfaatkan secara efektif untuk mengoptimalkan operasi bisnis, meningkatkan pengalaman pelanggan, dan menghasilkan wawasan yang bernilai bagi perusahaan.
 
 
