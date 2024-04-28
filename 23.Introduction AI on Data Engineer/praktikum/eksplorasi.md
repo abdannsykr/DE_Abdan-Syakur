@@ -139,6 +139,7 @@ Dalam contoh ini, setiap objek mewakili satu transaksi yang dilakukan oleh seora
 
 Evaluasi Solusi:
 
+
 Model Collaborative Filtering:
 
     
@@ -163,6 +164,7 @@ Pemodelan Sekuensial:
     Pemodelan sekuensial seperti recurrent neural networks (RNNs) dapat digunakan untuk memprediksi produk apa yang mungkin akan dibeli oleh pelanggan selanjutnya berdasarkan urutan pembelian sebelumnya. Ini dapat membantu dalam membuat rekomendasi yang lebih personal dan relevan berdasarkan perilaku pembelian masa lalu pelanggan. Keuntungan utamanya adalah kemampuannya untuk memodelkan urutan waktu dalam data transaksi pelanggan dan membuat prediksi yang lebih presisi tentang perilaku pembelian masa depan.
 
 
+
     -   Integrasi ke dalam Sistem Rekomendasi yang Ada:
 
 
@@ -171,17 +173,16 @@ Untuk mengintegrasikan solusi-solusi ini ke dalam sistem rekomendasi yang ada, l
 Pemrosesan Data: 
 
 
-
     Data transaksi pelanggan perlu diproses dan dimurnikan sebelum digunakan untuk melatih model AI. Ini termasuk membersihkan data, mengisi nilai yang hilang, dan mengonversi data ke format yang sesuai.
+
 
 Pelatihan Model:
 
 
-
     Model AI perlu dilatih menggunakan data transaksi pelanggan yang telah diproses. Setiap teknik AI (collaborative filtering, NLP, deep learning, dll.) memerlukan pendekatan yang berbeda dalam pelatihan dan penyesuaian.
-    
-Integrasi dengan Sistem Rekomendasi:
 
+
+Integrasi dengan Sistem Rekomendasi:
 
 
     Setelah model-model AI dilatih, mereka harus diintegrasikan ke dalam sistem rekomendasi yang ada. Ini melibatkan pengembangan antarmuka atau API untuk menghubungkan sistem rekomendasi dengan model AI.
@@ -190,8 +191,8 @@ Integrasi dengan Sistem Rekomendasi:
 Evaluasi dan Penyesuaian: 
 
 
-
     Setelah integrasi, sistem rekomendasi perlu dievaluasi secara menyeluruh untuk memastikan bahwa rekomendasi yang dihasilkan oleh model AI adalah relevan dan efektif. Jika diperlukan, model-model AI dapat disesuaikan atau diperbarui berdasarkan umpan balik dari evaluasi ini.
+
 
 Dengan mengikuti langkah-langkah ini, solusi-solusi AI dapat diintegrasikan dengan sistem rekomendasi yang ada untuk meningkatkan kualitas dan relevansi rekomendasi produk kepada pelanggan.
 
