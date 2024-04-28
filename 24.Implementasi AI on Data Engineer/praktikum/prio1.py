@@ -10,16 +10,15 @@ client = OpenAI(
     base_url='https://api.naga.ac/v1'
     )
 
-def genearate(prompt, model="gpt-3.5-turbo"):
-    response = client.chat.completions.create(
-        model=model,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt}
-        ]
-    )
-    return response.choices[0].message.content
+prompt = """Buatkan dataset penjualan yang mencakup informasi penting Tanggal,Jumlah_Penjualan,Harga,Kategori_Produk. 
+            Maka buatlah Dataset yang Fokus terhadap pada analisis tren penjualan, segmentasi pelanggan, dan prediksi penjualan."""
 
-result = genearate("Buatkan saya dataset penjualan")
-print(result)
+def generate(prompt, model="gpt-3.5-turbo"):
+    result = generate(prompt, model)
+    return result
+
+penjualan_dataset = generate(prompt)
+
+df_penjualan = pd.DataFrame({"penjualan_Dataset": [penjualan_dataset]})
+
+df_penjualan.to_csv("penjualan_dataset.csv", index=False)
