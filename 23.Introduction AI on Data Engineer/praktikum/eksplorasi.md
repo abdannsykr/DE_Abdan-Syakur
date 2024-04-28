@@ -164,10 +164,12 @@ Pemodelan Deep Learning:
     
 Pemodelan Sekuensial: 
 
+
     Pemodelan sekuensial seperti recurrent neural networks (RNNs) dapat digunakan untuk memprediksi produk apa yang mungkin akan dibeli oleh pelanggan selanjutnya berdasarkan urutan pembelian sebelumnya. Ini dapat membantu dalam membuat rekomendasi yang lebih personal dan relevan berdasarkan perilaku pembelian masa lalu pelanggan. Keuntungan utamanya adalah kemampuannya untuk memodelkan urutan waktu dalam data transaksi pelanggan dan membuat prediksi yang lebih presisi tentang perilaku pembelian masa depan.
 
 
 
+   
     - Integrasi ke dalam Sistem Rekomendasi yang Ada:
 
 
@@ -176,11 +178,13 @@ Untuk mengintegrasikan solusi-solusi ini ke dalam sistem rekomendasi yang ada, l
 
 Pemrosesan Data: 
 
+
     Data transaksi pelanggan perlu diproses dan dimurnikan sebelum digunakan untuk melatih model AI. Ini termasuk membersihkan data, mengisi nilai yang hilang, dan mengonversi data ke format yang sesuai.
 
 
 
 Pelatihan Model:
+
 
     Model AI perlu dilatih menggunakan data transaksi pelanggan yang telah diproses. Setiap teknik AI (collaborative filtering, NLP, deep learning, dll.) memerlukan pendekatan yang berbeda dalam pelatihan dan penyesuaian.
 
@@ -188,11 +192,13 @@ Pelatihan Model:
 
 Integrasi dengan Sistem Rekomendasi:
 
+
     Setelah model-model AI dilatih, mereka harus diintegrasikan ke dalam sistem rekomendasi yang ada. Ini melibatkan pengembangan antarmuka atau API untuk menghubungkan sistem rekomendasi dengan model AI.
 
 
     
 Evaluasi dan Penyesuaian: 
+
 
     Setelah integrasi, sistem rekomendasi perlu dievaluasi secara menyeluruh untuk memastikan bahwa rekomendasi yang dihasilkan oleh model AI adalah relevan dan efektif. Jika diperlukan, model-model AI dapat disesuaikan atau diperbarui berdasarkan umpan balik dari evaluasi ini.
 
